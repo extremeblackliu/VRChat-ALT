@@ -3,7 +3,7 @@ tbh this description like my ass,
 
 but you might want debug any map without EAC, this is similar with other game's `Launch (No EAC) `
 
-which you can't play online with friend, but you can literally reverse engineer with full experience.
+which you can't play online with friend, but you can literally reverse engineer like normal game.
 
 # How to use?
 0. Download the `DirectLocalTest.bat` from repo.
