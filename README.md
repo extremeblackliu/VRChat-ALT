@@ -1,5 +1,8 @@
-# VRCLocalTest
-tbh this description like my ass, 
+# VRChat-ALT
+
+VRChat Any-Local-Test
+
+tbh this name like ass, 
 
 but you might want debug any map without EAC, this is similar with other game's `Launch (No EAC) `
 
