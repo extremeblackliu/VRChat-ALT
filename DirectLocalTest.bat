@@ -11,6 +11,12 @@ set /a "randomid_a=10000+%random%"
 set /a "randomid_b=10000+%random%"
 set "randomid=%randomid_a%%randomid_b%"
 
+set /p customid=Custom roomId(10 bits)(leave blank = random):
+
+if not "%customid%"=="" (
+    set "randomid=%customid%"
+)
+
 dir /s /b *.vrcw > temp.txt
 set /p path=<temp.txt
 del temp.txt
