@@ -5,8 +5,8 @@ echo [-VRChat-LocalTest-Launcher-]
 echo [-Author---Extr3lackLiu-----]
 echo [---------------------------]
 
-string randomDigits = Tools.GetRandomDigits(10);
-string text4 = "--url=create?roomId=" + randomDigits + "&hidden=true&name=BuildAndRun&url=file:///" + text;
+REM string randomDigits = Tools.GetRandomDigits(10);
+REM string text4 = "--url=create?roomId=" + randomDigits + "&hidden=true&name=BuildAndRun&url=file:///" + text;
 set /a "randomid_a=10000+%random%"
 set /a "randomid_b=10000+%random%"
 set "randomid=%randomid_a%%randomid_b%"
