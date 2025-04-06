@@ -21,11 +21,12 @@ dir /s /b *.vrcw > temp.txt
 set /p path=<temp.txt
 del temp.txt
 
-set "GameDir=F:\SteamLibrary\steamapps\common\VRChat\"
+set GameDir="F:\SteamLibrary\steamapps\common\VRChat\"
+set GameExe="F:\SteamLibrary\steamapps\common\VRChat\VRChat.exe"
 
 set /p ClientCount=Amount of Clients to create(leave blank = 1):
 
 if "%ClientCount%"=="" set ClientCount=1
 for /l %%i in (1, 1, %ClientCount%) do (
-	start "" /D %GameDir% "%GameDir%VRChat.exe" "--url=create?roomId=%randomid%&hidden=true&name=BuildAndRun&url=file:///%path%" --enable-debug-gui --enable-sdk-log-levels --enable-udon-debug-logging  --no-vr --watch-worlds
+	start "" /D %GameDir% %GameExe% "--url=create?roomId=%randomid%&hidden=true&name=BuildAndRun&url=file:///%path%" --enable-debug-gui --enable-sdk-log-levels --enable-udon-debug-logging  --no-vr --watch-worlds
 )
