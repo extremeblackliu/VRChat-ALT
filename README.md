@@ -11,7 +11,7 @@ which you can't play online with friend, but you can literally reverse engineer 
 # Beginning
 0. Download the `DirectLocalTest.bat` from repo.
 1. Create empty folder and put `DirectLocalTest.bat` in.
-2. Edit [Line 24](https://github.com/extremeblackliu/VRCLocalTest/blob/main/DirectLocalTest.bat#L24) to your game folder.
+2. Edit [Line 24](https://github.com/extremeblackliu/VRCLocalTest/blob/main/DirectLocalTest.bat#L24) AND [Line 25](https://github.com/extremeblackliu/VRCLocalTest/blob/main/DirectLocalTest.bat#L25) to your game folder.
 3. Put .vrcw file in folder same as where you put the `DirectLocalTest.bat`.
 4. Run `DirectLocalTest.bat`
 5. Follow the instruction.
