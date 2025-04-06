@@ -21,7 +21,8 @@ dir /s /b *.vrcw > temp.txt
 set /p path=<temp.txt
 del temp.txt
 
-set "GameDir=F:\SteamLibrary\steamapps\common\VRChat\"
+set GameDir="F:\SteamLibrary\steamapps\common\VRChat\"
+set GameExe="F:\SteamLibrary\steamapps\common\VRChat\VRChat.exe"
 
 set /p ClientCount=Amount of Clients to create(leave blank = 1):
 
